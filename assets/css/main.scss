@@ -1,0 +1,30 @@
+---
+# 让 Jekyll 识别这是一个 Sass 文件
+---
+
+/* 先导入主题的默认样式 */
+@import "jekyll-theme-modernist";
+
+/* 然后覆盖配色 / 字体 / 布局 */
+:root {
+  --theme-color-primary: #3f51b5;    /* 主色：靛蓝 */
+  --theme-color-accent: #ff4081;     /* 强调色：玫红 */
+  --text-font: "Noto Sans SC", sans-serif;
+  --heading-font: "Merriweather", serif;
+}
+
+/* 调整正文行高、边距 */
+body {
+  line-height: 1.7;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* 日记列表卡片阴影 */
+.post-card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform .2s;
+}
+.post-card:hover {
+  transform: translateY(-4px);
+}
