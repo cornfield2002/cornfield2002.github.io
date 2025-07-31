@@ -1,0 +1,6 @@
+# 使用 minimal-mistakes 远程主题
+remote_theme: mmistakes/minimal-mistakes  
+plugins:
+  - jekyll-remote-theme
+title: "我的私人日记站"
+paginate: 5             # 首页文章分页：每页显示5篇
