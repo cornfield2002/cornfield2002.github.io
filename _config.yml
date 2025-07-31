@@ -1,5 +1,5 @@
 # 使用 minimal-mistakes 远程主题
-remote_theme: mmistakes/minimal-mistakes  
+theme: jekyll-theme-primer
 plugins:
   - jekyll-remote-theme
 title: "我的私人日记站"
